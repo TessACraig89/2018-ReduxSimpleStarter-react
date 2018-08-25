@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
-// define SearchBar class and give it all the functionality that React.Component has
-class SeachBar extends React.Componenet{
+// define SearchBar class and give it all the functionality that React Component has
+class SearchBar extends Component {
   render() {
-    
+    return <input />;
   }
 }
 
