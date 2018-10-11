@@ -15,8 +15,12 @@ class App extends Component {
       videos: [],
       selectedVideo: null
     };
+    this.videoSearch('cats');
+  }
+
+  videoSearch(term) {
     // so user can immediately see data
-    YTSearch({key: API_KEY, term: 'cats'}, (videos) => {
+    YTSearch({key: API_KEY, term: term}, (videos) => {
         this.setState({
           videos : videos,
           selectedVideo: videos[0]
