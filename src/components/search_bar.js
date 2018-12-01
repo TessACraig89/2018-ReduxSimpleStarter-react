@@ -1,4 +1,4 @@
-// es6 syntax, when importing react save component property to Component variable
+// es6 syntax, when importing react save component property to Component variable --
 import React, { Component } from 'react';
 
 
